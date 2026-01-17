@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agropet Veterinária - Pet Shop e Clínica em Montanha-ES</title>
+    <meta name="description"
+        content="Agropet Veterinária em Montanha-ES. Atendimento veterinário completo, pet shop, banho e tosa, e suporte ao homem do campo. Cuidado e confiança para seu pet.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#inicio">
+                    <img src="imagens/logotipo.png" alt="Agropet Veterinária">
+                </a>
+            </div>
+
+            <button class="mobile-menu-btn" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços Pet</a></li>
+                    <li><a href="#agro">Agro</a></li>
+                    <li><a href="#horario">Horário</a></li>
+                    <li><a href="#contato" class="btn-nav">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Pet Shop em Montanha-ES com atendimento veterinário completo</h1>
+                <p>Cuidado, saúde e carinho para pets e apoio total ao homem do campo.</p>
+                <a href="https://wa.me/5527999856569?text=Olá,%20estava%20no%20site%20e%20vim%20tirar%20dúvidas"
+                    target="_blank" class="btn-primary">
+                    <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+                </a>
+            </div>
+            <div class="hero-image">
+                <img src="imagens/hero.png" alt="Veterinário atendendo cão e gato com carinho">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <div class="container sobre-container">
+            <div class="sobre-image">
+                <img src="imagens/fachada.jpg" alt="Fachada da Agropet Veterinária">
+            </div>
+            <div class="sobre-content">
+                <h2>Sobre a Agropet</h2>
+                <p>Somos a referência em cuidados animais em Montanha-ES. Na Agropet, unimos paixão por animais com
+                    excelência profissional para oferecer o melhor tratamento para seu pet e as melhores soluções para o
+                    produtor rural.</p>
+                <p>Nossa missão é proporcionar saúde e bem-estar, com um atendimento acolhedor e humanizado, porque
+                    entendemos que cada animal é parte da família ou essencial para o seu negócio.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2 class="section-title">Serviços para Pets</h2>
+            <div class="servicos-layout">
+                <div class="servicos-image">
+                    <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <img src="imagens/carrossel/01.jpg" alt="Serviços Agropet">
+                        <img src="imagens/carrossel/02.jpg" alt="Serviços Agropet">
+                        <img src="imagens/carrossel/03.jpg" alt="Serviços Agropet">
+                        <img src="imagens/carrossel/04.jpg" alt="Serviços Agropet">
+                        <img src="imagens/carrossel/05.jpg" alt="Serviços Agropet">
+                        <img src="imagens/carrossel/06.jpg" alt="Serviços Agropet">
+                    </div>
+                    <button id="prevBtn" class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button id="nextBtn" class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                </div>
+                <div class="servicos-list">
+                    <div class="servico-card">
+                        <i class="fas fa-user-md"></i>
+                        <h3>Clínica Veterinária</h3>
+                        <p>Consultas, exames e vacinas com profissionais experientes.</p>
+                    </div>
+                    <div class="servico-card">
+                        <i class="fas fa-shower"></i>
+                        <h3>Banho e Tosa</h3>
+                        <p>Cuidado estético com higiene e carinho que seu pet merece.</p>
+                    </div>
+                    <div class="servico-card">
+                        <i class="fas fa-bone"></i>
+                        <h3>Pet Shop Completo</h3>
+                        <p>As melhores marcas de rações, acessórios e brinquedos.</p>
+                    </div>
+                    <div class="servicos-cta">
+                        <a href="https://wa.me/5527999856569?text=Gostaria%20de%20agendar%20um%20atendimento"
+                            target="_blank" class="btn-secondary">Agendar Atendimento</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agro Section -->
+    <section id="agro" class="agro">
+        <div class="container agro-container">
+            <div class="agro-content">
+                <h2>Agro e Grandes Animais</h2>
+                <p>O homem do campo tem parceiro certo. Oferecemos suporte completo para bovinos, equinos e outros
+                    grandes animais.</p>
+                <ul class="agro-list">
+                    <li><i class="fas fa-check"></i> Medicamentos veterinários</li>
+                    <li><i class="fas fa-check"></i> Consultoria técnica</li>
+                    <li><i class="fas fa-check"></i> Produtos agropecuários</li>
+                </ul>
+                <a href="https://wa.me/5527999856569?text=Preciso%20de%20apoio%20para%20grandes%20animais"
+                    target="_blank" class="btn-outline">Falar com Veterinário</a>
+            </div>
+            <div class="agro-image">
+                <img src="imagens/agro.png" alt="Veterinário rural atendendo cavalo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Horário Section -->
+    <section id="horario" class="horario">
+        <div class="container">
+            <h2 class="section-title">Horário de Funcionamento</h2>
+            <p class="horario-subtitle">Estamos prontos para atender você.</p>
+            <div class="horario-cards">
+                <div class="horario-card">
+                    <i class="far fa-clock"></i>
+                    <h3>Segunda a Sexta</h3>
+                    <p>08:00 às 17:00</p>
+                </div>
+                <div class="horario-card">
+                    <i class="far fa-calendar-alt"></i>
+                    <h3>Sábado</h3>
+                    <p>08:00 às 12:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fale Conosco Section -->
+    <section id="contato-form" class="fale-conosco">
+        <div class="container">
+            <h2 class="section-title">Fale Conosco</h2>
+            <p>Preencha o formulário abaixo e nossa equipe entrará em contato.</p>
+
+            <form action="send-mail.php" method="POST" class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" required placeholder="(XX) XXXXX-XXXX">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Como podemos ajudar?</label>
+                    <textarea id="mensagem" name="mensagem" required rows="4"
+                        placeholder="Descreva o que você precisa..."></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-block">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer / Localização -->
+    <footer id="contato">
+        <div class="container footer-container">
+            <div class="footer-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.0!2d-40.36!3d-18.12!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDA3JzMyLjQiUyA0MMKwMjEnNDUuMCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <!-- Nota: O link do iframe é um placeholder aproximado. Recomendo substituir pelo link exato do Google Maps da Agropet Montanha se disponível -->
+            </div>
+            <div class="footer-info">
+                <img src="imagens/logotipo.png" alt="Agropet" class="footer-logo">
+                <div class="contact-details">
+                    <p><i class="fas fa-map-marker-alt"></i> Rua Pedro Rodrigues de Oliveira, 149 – Centro<br>Montanha –
+                        ES – 29890-000</p>
+                    <p><i class="fab fa-whatsapp"></i> (27) 99985-6569</p>
+                    <p><i class="fab fa-instagram"></i> @agropetmontanha</p>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2026 Agropet Veterinária. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/5527999856569?text=Olá,%20estava%20no%20site%20e%20vim%20tirar%20dúvidas" target="_blank"
+        class="whatsapp-float" aria-label="Falar no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
